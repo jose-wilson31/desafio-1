@@ -1,0 +1,141 @@
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-left {
+    width: 40%;
+    display: inline-block;
+    align-items: center;
+    padding: 50px;
+}
+
+.links {
+    font-size: 14px;
+    color: #17233d;
+    text-decoration: none;
+    margin-right: 20px;
+    width: 83px;
+    height: 21px;
+    letter-spacing: 0.88px;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background: #6fbf44;
+    border-radius: 6px;
+    border: 1px #4cb538;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+h1{
+    width: 582px;
+    height: 164px;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    color: #161a49;
+    margin-top: 300px;
+    margin-left: 150px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4b505a;
+    margin-left: 150px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    color: #6fbf44;
+    text-decoration: none;
+    margin-left: 150px;
+}
+img {
+    width: 595px;
+    height: 500px;
+    margin-top: 100px;
+}
+
+@media screen and (max-width:500px){
+
+
+    .links {
+        display: none;
+    }
+
+  button {
+    display: block;
+    position: absolute;
+    font-weight: 500;
+    font-size: 12px;
+    right: 8%;
+  }
+
+  img {
+    width: 312px;
+    height: 288px;
+    display: inline-block;
+    position: absolute;
+    top: 55%;
+    left: 16%;
+  }
+
+  h1 {
+   
+  width: 60vw;     
+  height: auto;   
+  line-height: 40px;   
+  text-align: center;
+  font-size: 30px;    
+  position: absolute;
+  right: 18%;
+  bottom: 72%;
+}
+
+p {
+    width: 304px;
+    height: 165px;
+    font-size: 18px;
+    font-weight: 33px;
+    position: absolute;
+    top: 26%;
+    right: 16%;
+    text-align: center;
+}
+
+.link {
+    position: absolute;
+    top: 48%;
+    right: 38%;
+}
+}
